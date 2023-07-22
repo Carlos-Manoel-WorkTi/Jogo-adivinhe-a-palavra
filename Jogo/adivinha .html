@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Jogo de adivinhar</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+
+</head>
+<body>
+	<header>
+		<h1>Adivinha a palavra</h1>
+	</header>
+	<div class="container">
+
+		<div class="filho"></div>
+
+
+	</div>
+	<h2>Tema: <span id="tema">FRUTA</span></h2>
+	<div class="inform">
+   
+	    <div class="VidasRest">
+	    	<p>VIDAS: 3</p>
+	    	<div id="vidaAt">
+	    		
+	    	<span>Resto: </span><span id="vida"></span>
+	    	
+	    	</div>
+	    </div>
+		
+	    <div class="time">
+	    	<p>Time: 03:00</p>
+	    	<div id="tm">
+	    		
+	    	
+	    	<span>Resto</span><span id="minute">: 03:00</span>
+	    	<span id="secondTwo"></span><span id="secondOne"></span>
+	    	</div>
+	    </div>
+		
+		<!--<button id="dicas" ="dicas()">
+			Dicas: 0
+		</button> 
+		!-->
+	</div>
+
+
+
+	<div class="jogador">
+		    <h3>ESCOLHA UMA LETRA</h3>
+	</div>
+
+	<div class="letras">
+		<ul>
+
+			<li>
+				<button class="bt" id="A">A</button>
+			</li>
+			<li>
+				<button class="bt" id="B">B</button>
+			</li>
+			<li>
+				<button class="bt" id="C">C</button>
+			</li>
+			<li>
+				<button class="bt" id="D">D</button>
+			</li>
+			<li>
+				<button class="bt" id="E">E</button>
+			</li>
+			<li>
+				<button class="bt" id="F">F</button>
+			</li>
+
+
+		</ul>
+		<ul>
+
+			<li>
+				<button class="bt" id="G">G</button>
+			</li>
+			<li>
+				<button class="bt" id="H">H</button>
+			</li>
+			<li>
+				<button class="bt" id="I">I</button>
+			</li>
+			<li>
+				<button class="bt" id="J">J</button>
+			</li>
+			<li>
+				<button class="bt" id="K">K</button>
+			</li>
+			<li>
+				<button class="bt" id="L">L</button>
+			</li>
+
+		</ul>
+		<ul>
+			<li>
+				<button class="bt" id="M">M</button>
+			</li>
+			<li>
+				<button class="bt" id="N">N</button>
+			</li>
+			<li>
+				<button class="bt" id="O">O</button>
+			</li>
+			<li>
+				<button class="bt" id="P">P</button>
+			</li>
+			<li>
+				<button class="bt" id="Q">Q</button>
+			</li>
+			<li>
+				<button class="bt" id="R">R</button>
+			</li>
+
+		</ul>
+		<ul>
+			<li>
+				<button class="bt" id="S">S</button>
+			</li>
+			<li>
+				<button class="bt" id="T">T</button>
+			</li>
+			<li>
+				<button class="bt" id="U">U</button>
+			</li>
+			<li>
+				<button class="bt" id="V">V</button>
+			</li>
+			<li>
+				<button class="bt" id="X">X</button>
+			</li>
+			<li>
+				<button class="bt" id="Z">Z</button>
+			</li>
+
+		</ul>
+
+	</div>
+	<div class="restart">
+		<button disabled="true" id="bt-restart" onclick="restarte()" type="submit">RESTARTE</button>
+	</div>
+	<script src="script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

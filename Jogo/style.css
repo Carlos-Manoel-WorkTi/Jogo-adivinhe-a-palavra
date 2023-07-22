@@ -1,0 +1,153 @@
+body{
+				background: black;
+			}
+			header{
+				text-align: center;
+				color: white;
+			}
+			.container{
+				display: flex;
+				justify-content: center;
+				gap: 10px;
+				border: 2px solid white;
+				padding: 10px;
+				background: blue;
+			}
+			.letra{
+				background: white;
+				width: 50px;
+				height: 50px;
+				font-size: 40px;
+				text-align: center;
+				
+				
+			}
+			p{
+				color:white;
+				font-size: 20px;
+			}
+			h2{
+				text-align: center;
+				color:white;
+			}
+			spaw{
+				display: none;
+			}
+			.jogador{
+				height: 50px;
+				background: black;
+				color: white;
+			}
+			input{
+				width: 30px;
+				height: 30px;
+				text-align: center;
+				margin: 10px;
+			}
+			#dicas{
+				height: 40px;
+			}
+			.inform{
+				background-color: blue;
+				display: flex;
+				justify-content: space-around;
+				align-content: center;
+			}
+			#tema{
+				color: blue;
+			}
+		
+			.restart{
+				display:flex;
+				justify-content: center;
+				align-content: center;
+				margin: 20px;
+			}
+			#bt-restart{
+				display: center;
+				justify-content: center;
+				align-content: center;
+				text-align: center;
+				color: white;
+				font-size: 20px;
+				
+				background: gray;
+			}
+			#vida{
+				transition: 0.3s;
+				color:Green;
+				font-size: 20px;
+			}
+			#click-letter{
+				background:Gray;
+				width: 130px;
+				height: 40px;
+			}
+			li{
+				color: white;
+			}
+			.letras{
+				display: flex;
+				justify-content: center;
+				border:2px solid blue;
+				margin-left: 0;
+				padding: 0;
+				background: blue;
+				
+			}
+			ul{
+				display:flex;
+				justify-content: center;
+				flex-direction: column;
+				margin-right: 20px;
+				
+			}
+			ul li{
+				list-style: none;
+				margin: 0;
+		
+				
+			}
+			ul li button{
+				border:none;
+				background: black;
+				color: white;
+				border-radius: 10px;
+				width: 40px;
+				height:40px;
+				margin-top:10px;
+				font-size: 30px;	
+				border-bottom: 2px solid white;}
+			.time{
+				padding: 10px;
+				font-size: 20px;
+			}
+			.time span{
+				margin: 0;
+			}
+			.time p{
+				margin-top: 0;
+				margin-bottom: 0px;
+				background: Gray;
+				text-align: center;
+			}
+			#tm{
+				background: white;
+			}
+			.VidasRest{
+
+				
+				
+				text-align: center;
+			}
+			.VidasRest p{
+				background-color: gray;
+				margin-top: 10px;
+			}
+			#vidaAt{
+				background: white;
+				margin-top: -20px;
+			}
+			#vidaAt span{
+				font-size:20px;
+			}
